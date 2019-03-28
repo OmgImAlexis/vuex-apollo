@@ -1,9 +1,9 @@
 {
   "name": "vuex-apollo",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Vuex Setup with Apollo Integration",
   "main": "dist/vuex-apollo.umd.js",
-  "module": "dist/vuex-apollo.esm.js",
+  "module": "src/index.js",
   "unpkg": "dist/vuex-apollo.min.js",
   "scripts": {
     "build:browser": "parcel build src/index.js --out-dir dist --out-file vuex-apollo.min.js --target browser",
